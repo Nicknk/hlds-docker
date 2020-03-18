@@ -1,6 +1,6 @@
 FROM debian:buster
 
-LABEL maintainer "Tomas Adomavicius <tomas@adomavicius.com>"
+LABEL maintainer "Nick NK <n47@paragenesis.ru>"
 
 ARG steam_user=anonymous
 ARG steam_password=

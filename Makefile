@@ -1,6 +1,6 @@
 
 # Build options
-IMAGE_NAME?="thillux/hlds"
+IMAGE_NAME?="nicknk/hlds"
 IMAGE_TAG?="latest"
 
 STEAM_USER?="anonymous"
@@ -9,7 +9,7 @@ STEAM_PASSWORD?=""
 DOCKER_NO_CACHE?="true"
 
 # Publish options
-DOCKER_PUBLISH_NAME?="thillux/hlds"
+DOCKER_PUBLISH_NAME?="nicknk/hlds"
 DOCKER_PUBLISH_TAG?=$(IMAGE_TAG)
 
 # Test tools

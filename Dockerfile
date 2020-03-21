@@ -26,8 +26,11 @@ ADD hlds_run.sh /bin/hlds_run.sh
 ADD files/server.cfg /opt/hlds/cstrike/server.cfg
 
 # Add maps and bots
-ADD cstrike/ /opt/hlds/cstrike/
+#ADD cstrike/ /opt/hlds/cstrike/
 ADD files/mapcycle.txt /opt/hlds/cstrike/mapcycle.txt
+
+# Add ReHLDS files
+ADD rehlds/ /opt/hlds/
 
 # Cleanup
 RUN apt-get remove -y curl

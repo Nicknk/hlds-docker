@@ -34,6 +34,7 @@ ADD rehlds/ /opt/hlds/
 
 # Cleanup
 RUN apt-get remove -y curl
+RUN chmod +x /opt/hlds/hlds_linux
 
 WORKDIR /opt/hlds
 
